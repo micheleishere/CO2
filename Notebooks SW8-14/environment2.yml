@@ -1,0 +1,28 @@
+name: MLCO2
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - notebook
+  - numpy
+  - scikit-learn==1.6.1
+  - seaborn
+  - yellowbrick
+  - liac-arff==2.5.0
+  - imbalanced-learn
+  - statsmodels
+  - ffmpeg
+  - xgboost
+  - prophet==1.1.5
+  - ipywidgets==8.1.5
+  - plotly==6.0.1
+  - shap
+  - pip
+  - pip:
+    - scikit-activeml==0.6.2
+    - librosa==0.11.0
+    - tsaug==0.2.1
+    - scikit-multilearn==0.2.0
+    - scikit-optimize==0.10.2
+    - aif360==0.6.1
+
