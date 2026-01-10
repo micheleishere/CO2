@@ -5,8 +5,11 @@ channels:
 dependencies:
   - python=3.11
   - pandas
-  - numpy
-  - scikit-learn
+  - numpy<2.0
+  - scikit-learn<1.6
   - matplotlib
   - seaborn
   - jupyter
+  - xgboost
+  - catboost
+  - shap
